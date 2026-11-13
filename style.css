@@ -129,9 +129,9 @@ p, h1, h2, h3 { margin: 0; }
 .names {
   font-family: 'Pinyon Script', var(--font-script);
   font-weight: 400;
-  font-size: clamp(1.9rem, 9.5cqw, 3rem);
-  line-height: 1.08;
-  margin: clamp(.5rem, 2.4cqw, 1rem) 0 0;
+  font-size: clamp(1.65rem, 8.2cqw, 2.5rem);
+  line-height: 1.1;
+  margin: clamp(.4rem, 2cqw, .85rem) 0 0;
 }
 
 .names .gold-text { display: block; padding: .06em .12em; }
@@ -140,7 +140,7 @@ p, h1, h2, h3 { margin: 0; }
   display: block;
   font-family: var(--font-head);
   font-style: italic;
-  font-size: clamp(1.3rem, 6cqw, 1.8rem);
+  font-size: clamp(1.15rem, 5.2cqw, 1.55rem);
   color: var(--gold-deep);
   line-height: 1.1;
 }
@@ -557,8 +557,8 @@ p, h1, h2, h3 { margin: 0; }
 .hero .address { font-size: clamp(.65rem, 3cqw, .85rem); }
 .hero .text { font-size: clamp(.7rem, 3.2cqw, .9rem); line-height: 1.45; }
 .hero .names {
-  font-size: clamp(1.9rem, 9.6cqw, 3rem);
-  margin-inline: -5cqw;      /* the opening is widest here, so allow a little extra room */
+  font-size: clamp(1.65rem, 8.2cqw, 2.5rem);
+  margin-inline: -3cqw;      /* comfortable breathing room inside curtain opening */
   text-align: center;
 }
 .hero .names .gold-text { white-space: nowrap; }
