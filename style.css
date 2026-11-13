@@ -127,9 +127,9 @@ p, h1, h2, h3 { margin: 0; }
 }
 
 .names {
-  font-family: var(--font-script);
+  font-family: 'Pinyon Script', var(--font-script);
   font-weight: 400;
-  font-size: clamp(2.3rem, 11.5cqw, 3.6rem);
+  font-size: clamp(1.9rem, 9.5cqw, 3rem);
   line-height: 1.08;
   margin: clamp(.5rem, 2.4cqw, 1rem) 0 0;
 }
@@ -750,7 +750,7 @@ p, h1, h2, h3 { margin: 0; }
 /* ----- Venues: watercolour church + reception (flower-free artwork) ----- */
 
 .scene--venues {
-  --img: url('assets/venues-bg.webp');
+  --img: url('assets/location-bg.jpg');
   --a: .347;
   --b: .33;
   --scene-fill: var(--ivory-paper);
