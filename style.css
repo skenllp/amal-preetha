@@ -750,7 +750,7 @@ p, h1, h2, h3 { margin: 0; }
 /* ----- Venues: watercolour church + reception (flower-free artwork) ----- */
 
 .scene--venues {
-  --img: url('assets/location-bg.jpg');
+  --img: url('assets/location-bg.png');
   --a: .347;
   --b: .33;
   --scene-fill: var(--ivory-paper);
